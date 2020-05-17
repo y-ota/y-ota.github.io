@@ -1,0 +1,66 @@
+body{
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer{
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1{
+    font-size: 1.8rem;
+}
+
+h2{
+    font-size: 1.6rem;
+}
+
+h4{
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+}
+
+.introduction{
+    margin-top:30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.introduction h1{
+}
+
+.introduction .portrait{
+    background-image: url("./8006865.jpg");
+    background-size: 300px;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 300px;
+}
+
+.introduction .biography{
+    
+}
+
+.introduction .biography-group{
+    padding: 30px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.works{
+    margin-top:40px;
+}
+
+.contributions{
+    margin-top:40px;
+}
