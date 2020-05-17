@@ -2,10 +2,13 @@ body{
     font-size: 16px;
     display: flex;
     flex-direction: column;
+    font-family: 'Noto Sans', sans-serif;
+    color: #1c2020;
+    background-color: #f3f5f4;
 }
 
 main{
-    width: 800px;
+    width: 650px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -23,11 +26,17 @@ h1{
 
 h2{
     font-size: 1.6rem;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #1c2020;
 }
 
 h4{
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     margin-bottom: 10px;
+}
+
+a{
+    color: #49c5b3;
 }
 
 .introduction{
@@ -36,20 +45,16 @@ h4{
     flex-direction: row;
 }
 
-.introduction h1{
-}
 
 .introduction .portrait{
     background-image: url("./8006865.jpg");
-    background-size: 300px;
+    background-size: 250px;
     background-repeat: no-repeat;
-    height: 300px;
-    width: 300px;
+    height: 250px;
+    width: 250px;
+    border: 1px solid #49c5b3;
 }
 
-.introduction .biography{
-    
-}
 
 .introduction .biography-group{
     padding: 30px;
@@ -62,5 +67,5 @@ h4{
 }
 
 .contributions{
-    margin-top:40px;
+    margin-top:50px;
 }
