@@ -52,7 +52,6 @@ a{
     background-repeat: no-repeat;
     height: 250px;
     width: 250px;
-    border: 1px solid #49c5b3;
 }
 
 
@@ -68,4 +67,23 @@ a{
 
 .contributions{
     margin-top:50px;
+}
+
+.assoon-image{
+    background-image: url(../assets/assoon.jpg);
+    width: 80%;
+    height: 380px;
+    border: 1px solid #49c5b3;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+
+.post-tree{
+    background-image: url(../assets/post-tree.jpg);
+    width: 80%;
+    height: 350px;
+    border: 1px solid #49c5b3;
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
